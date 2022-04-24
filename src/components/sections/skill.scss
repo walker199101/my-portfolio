@@ -1,0 +1,128 @@
+.container {
+    background: #F9F9FF;
+    color: black;
+}
+
+.content {
+    display: flex;
+
+    div.language, div.framework {
+        position: relative;
+        background: white;
+        margin-left: 15px;
+        margin-right: 15px;
+        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+        flex: 1;
+        border-radius: 20px;
+        padding: 30px;
+
+        .line {
+            position: absolute;
+            width: 2px;
+            top: 10px;
+            bottom: 10px;
+            left: 16px;
+            background: #e85555;
+        }
+    }
+}
+
+.progress {
+    display: flex;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    height: 8px;
+}
+
+.progress-bar {
+    height: 100%;
+    border-radius: 5px;
+}
+
+.javascript {
+    width: 85%;
+    background-color: rgb(255, 76, 96);
+}
+
+.html {
+    width: 70%;
+    background-color: rgb(255, 209, 92);
+}
+
+.css {
+    width: 65%;
+    background-color: rgb(108, 108, 229);
+}
+
+.react {
+    width: 85%;
+    background-color: rgb(255, 76, 96);
+}
+
+.vuejs {
+    width: 50%;
+    background-color: rgb(255, 209, 92);
+}
+
+.jquery {
+    width: 65%;
+    background-color: rgb(108, 108, 229);
+}
+
+.skill-javascript, .skill-react {
+    .skill-icon {
+        font-size: 40px;
+        margin-right: 6px;
+        color: rgb(255, 76, 96);
+    }
+    
+    .skill-name {
+        font-weight: 900;
+        font-size: 32px;
+    }
+}
+
+.skill-html, .skill-vuejs {
+    .skill-icon {
+        font-size: 24px;
+        margin-right: 6px;
+        color: rgb(255, 209, 92);
+    }
+    
+    .skill-name {
+        font-weight: 900;
+        font-size: 20px;
+    }
+}
+
+.skill-css {
+    .skill-icon {
+        font-size: 20px;
+        margin-right: 6px;
+        color: rgb(108, 108, 229);
+    }
+    
+    .skill-name {
+        font-weight: 900;
+        font-size: 18px;
+    }
+}
+
+.skill-jquery {
+    .skill-icon img {
+        width: 20px;
+        margin-right: 6px;
+    }
+    
+    .skill-name {
+        font-weight: 900;
+        font-size: 18px;
+    }
+}
+
+
+
+
+
+
+

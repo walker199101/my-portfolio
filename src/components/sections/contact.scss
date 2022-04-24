@@ -1,0 +1,24 @@
+.business-card {
+    transform: rotate(-3deg);
+    color: white;
+    box-shadow: 10px 10px 2px rgba(0, 0, 0, 0.2);
+    background-color: #405663;
+    width: 360px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    padding: 20px;
+}
+
+.small-spacer {
+    padding: 22px;
+}
+
+.card-icon {
+    margin-right: 4px;
+}
+
+h4:not(:last-of-type) {
+    margin-bottom: 8px;
+}

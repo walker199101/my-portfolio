@@ -1,0 +1,32 @@
+
+.intro {
+    background-color: #353353;
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    .typewriter-space {
+        padding: 12px 0;
+        margin: 0 20%;
+    }
+    .react-typewriter-pointer.add-cursor-animate  {
+        margin-left: 8px;
+    }
+    font-family: "pixel"
+}
+  
+.intro-typed {
+    height: 200px;
+    margin: 60px 0;
+    .strong {
+        font-size: 2em;
+        font-weight: bold;
+        padding: 16px 0;
+    }
+}
+
+.contact-btn {
+    background-color: #ff4c60;
+    padding: 8px 16px;
+    border-radius: 50px;
+    font-weight: 700;
+}

@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  // content-box의 실제 width = width + padding + border
+  // border-box의 실제 width = width
+  box-sizing: border-box;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+.App {
+  color: white;
+  background-color: #F9F9FF;
+  font-family: "Rubik", sans-serif;
+}
+
+@font-face {
+  font-family: "pixel";
+  src: url("./font/slkscr.ttf");
+}
+
+.code-block {
+  height: 80px;
+  color: #b9e6ff;
+  h3 {
+    height: 30px;
+    text-align: left;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+.nav-content {
+  background-color: #353353;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  height: 100vh;
+  width: 260px;
+  padding: 30px;
+  border-right: 1px solid hsla(0,0%,100%,.1);
+}
+
+.logo {
+  span {
+    font-style: italic;
+    font-weight: 900;
+  }
+  span:nth-of-type(1) {
+    font-size: 32px;
+    margin-right: 4px;
+  }
+}
+
+.nav-shortcuts {
+  margin-top: 140px;
+  margin-bottom: 140px;
+  li {
+    padding: 1em 1em 1em 0;
+    &.isCurrent {
+      a {
+        color: #ffd15c;
+      }
+    }
+  }
+  span {
+    font-weight: 900;
+    font-size: 18px;
+  }
+
+  a {
+    &:hover {
+      color: #ffd15c;
+      cursor: pointer;
+    }
+  }
+}
+
+.nav-footer {
+  margin-top: auto;
+}
+
+.nav-icons {
+  padding-right: 10px;
+  color: #ffd15c;
+}
+
+.section {
+  display: flex;
+  margin-left: 260px;
+}
+
+.section-intro {
+  background-color: #353353;
+  height: 100vh;
+  align-items: center;
+}
+
+.section-container {
+  width: 100%;
+}
+
+.big-spacer {
+  padding: 60px;
+}
+
+.section-title {
+  position: relative;
+  font-size: 36px;
+  font-weight: 900;
+  margin-left: 28px;
+  color: #353353;
+  &::before {
+    background-image: url(/img/dots-bg.svg);
+    content: "";
+    display: block;
+    height: 37px;
+    left: -14px;
+    top: -14px;
+    position: absolute;
+    width: 37px;
+  }
+}
+
+.btn-area {
+  margin-top: 100px;
+}
+
+.spacer {
+  padding: 20px;
+}

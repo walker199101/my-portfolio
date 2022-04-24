@@ -1,0 +1,57 @@
+.container {
+    background: #F9F9FF;
+    color: black;
+}
+
+
+.content {
+    display: flex;
+
+    div.academy, div.career {
+        position: relative;
+        background: white;
+        margin-left: 15px;
+        margin-right: 15px;
+        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+        flex: 1;
+        border-radius: 20px;
+        padding: 30px;
+
+        .line {
+            position: absolute;
+            width: 2px;
+            top: 10px;
+            bottom: 10px;
+            left: 16px;
+            background: #e85555;
+        }
+    }
+
+    .timeline-icon {
+        position: absolute;
+        left: 8px;
+        z-index: 4;
+        color: #e85555;
+        filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.2))
+    }
+
+    .date {
+        color: #8b88b1;
+        font-size: 16px;
+        font-style: italic;
+    }
+
+    .at-icon {
+        color: #e85555;
+        font-size: 16px;
+    }
+
+    p {
+        margin-top: 6px;
+    }
+
+    .list-block {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
