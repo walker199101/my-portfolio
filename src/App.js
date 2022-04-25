@@ -3,8 +3,9 @@ import Intro from './components/sections/intro';
 import Experience from './components/sections/experience';
 import Skill from './components/sections/skill';
 import Contact from './components/sections/contact';
+import Work from './components/sections/work';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faBriefcase, faScrewdriverWrench, faMessage } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faBriefcase, faScrewdriverWrench, faMessage, faPaintbrush } from '@fortawesome/free-solid-svg-icons';
 import Scrollspy from 'react-scrollspy';
 
 function App() {
@@ -39,6 +40,12 @@ function App() {
             </li>
             <li>
               <a href="#section-4">
+                <span className="nav-icons"><FontAwesomeIcon icon={faPaintbrush} /></span>
+                <span>Works</span>
+              </a>
+            </li>
+            <li>
+              <a href="#section-5">
                 <span className="nav-icons"><FontAwesomeIcon icon={faMessage} /></span>
                 <span>Contact</span>
               </a>
@@ -67,6 +74,11 @@ function App() {
           </div>
         </div>
         <div id="section-4" className="section">
+          <div className="section-container">
+            <Work />
+          </div>
+        </div>
+        <div id="section-5" className="section">
           <div className="section-container">
             <Contact />
           </div>
