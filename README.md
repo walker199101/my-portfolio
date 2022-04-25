@@ -5,7 +5,7 @@
 Develop History
 
 - create-react-app 으로 React 신규 프로젝트 작성
-- 페이지 뼈대 작성 (html 위주로)
+- 페이지 뼈대 작성 (html/css 위주로)
 - 아이콘 표시
 
 react fontawesome 추가 (https://fontawesome.com/v5/docs/web/use-with/react)
