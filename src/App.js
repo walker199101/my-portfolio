@@ -13,7 +13,7 @@ function App() {
       <div className="nav-container">
         <div className="nav-content">
           <div className="logo">
-            <span>Portfolio</span><span>by GWK</span>
+            <a href="#section-1"><span>Portfolio</span><span>by GWK</span></a>
           </div>
           <ul className="nav-shortcuts">
             <Scrollspy className="scrollspy" items={['section-1', 'section-2', 'section-3', 'section-4']} 
@@ -77,12 +77,3 @@ function App() {
 }
 
 export default App;
-
-// develop history
-// create-react-app 으로 프로젝트 만들기
-// clone할 페이지 뼈대 만들기 (html 위주로)
-// react fontawesome 추가 (https://fontawesome.com/v5/docs/web/use-with/react)
-// typewriter-effect 추가 (https://github.com/kevoese/react-typewriter-effect)
-// 헤더 만들기
-// multiple section 만들기
-// react-scrollspy 추가 (https://makotot.github.io/react-scrollspy/)
