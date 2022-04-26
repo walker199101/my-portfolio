@@ -20,3 +20,8 @@ Develop History
 - 스크롤 위치에 따라 섹션 하이라이트되는 기능 추가
 
   ㄴreact-scrollspy 추가 (https://makotot.github.io/react-scrollspy/)
+
+- work 섹션 추가
+  
+  ㄴ이미지 hover effect 추가 (https://www.w3schools.com/howto/howto_css_image_overlay.asp)
+
