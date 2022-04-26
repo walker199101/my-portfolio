@@ -8,6 +8,8 @@ function Contact() {
     return (
         <div className="container">
             <div className="big-spacer"></div>
+            <div className="big-spacer"></div>
+            <div className="big-spacer"></div>
             <h2 className="section-title">Contact</h2>
             <div className="spacer"></div>
             <div className="content">

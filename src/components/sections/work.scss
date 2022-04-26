@@ -1,10 +1,13 @@
-// hover on image
-.image-frame {
-    position: relative;
-    background: white;
-    padding: 10px;
-    margin: 10px;
-    width: 50%;
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    .image-frame {
+        position: relative;
+        background: white;
+        padding: 10px;
+        margin: 10px;
+        flex-basis: 48%;
+    }
 }
   
 .image {
@@ -18,10 +21,9 @@
     position: absolute;
     top: 30%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    
-
+    transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    width: 80%;
 }
 
 .image-frame:hover {
@@ -33,9 +35,28 @@
     }
 }
 
-.text {
-    background-color: #04AA6D;
+.btn-text {
+    background-color: #353353;
     color: white;
     font-size: 16px;
     padding: 16px 32px;
+}
+
+.more-btn {
+    text-decoration: none;
+    border: none;
+    margin-top: 60px;
+}
+
+.project-role {
+    margin-bottom: 30px;
+}
+
+.skill {
+    padding: 3px;
+    margin: 0 4px;
+    border-radius: 4px;
+    background: #ffd15c;
+    color: white;
+    font-weight: bold;
 }
